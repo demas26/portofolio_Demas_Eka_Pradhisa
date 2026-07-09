@@ -1,0 +1,184 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-primary: #121212; /* Deep Black */
+  --color-secondary: #F8F9FA; /* Clean White / Light Gray */
+  --color-accent: #0D9488; /* Professional Teal */
+  
+  --color-dark-bg: #0f172a; /* Slate 900 */
+  --color-dark-card: #1e293b; /* Slate 800 */
+  --color-dark-border: #334155; /* Slate 700 */
+
+  --font-sans: 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+
+body {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+.dark body {
+  background-color: var(--color-dark-bg);
+  color: #f8fafc;
+}
+
+/* Hide default cursor on desktop since we use custom cursor */
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+  a, button, input, textarea, select {
+    cursor: none;
+  }
+}
+
+.floating-card {
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .floating-card {
+  background: var(--color-dark-card);
+  border-color: var(--color-dark-border);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.floating-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .floating-card:hover {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6);
+}
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .glass-header {
+  background: rgba(15, 23, 42, 0.8);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mesh Gradient Animation */
+@keyframes mesh {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.mesh-bg {
+  background: radial-gradient(at 0% 0%, rgba(13, 148, 136, 0.15) 0px, transparent 50%),
+              radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%);
+  background-size: 200% 200%;
+  animation: mesh 10s ease infinite;
+}
+
+.dark .mesh-bg {
+  background: radial-gradient(at 0% 0%, rgba(13, 148, 136, 0.25) 0px, transparent 50%),
+              radial-gradient(at 100% 0%, rgba(30, 58, 138, 0.25) 0px, transparent 50%);
+  background-size: 200% 200%;
+  animation: mesh 10s ease infinite;
+}
+
+/* Timeline specific styles */
+.timeline-dot {
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.2);
+}
+.dark .timeline-dot {
+  box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.4);
+}
+
+/* Spotlight Glow Effect on Cards */
+.floating-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    800px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+    rgba(13, 148, 136, 0.08),
+    transparent 40%
+  );
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.dark .floating-card::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+    rgba(13, 148, 136, 0.15),
+    transparent 40%
+  );
+}
+
+.floating-card:hover::before {
+  opacity: 1;
+}
+
+/* Ensure content stays above spotlight */
+.floating-card > * {
+  position: relative;
+  z-index: 10;
+}
+
+/* Typographic Marquee Animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Outline Text Effect for Marquee */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(18, 18, 18, 0.2);
+}
+
+.dark .text-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Magnetic Button Base Styles */
+.magnetic-btn {
+  display: inline-block;
+  transition: transform 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+  will-change: transform;
+}
+
+/* Smooth Scrolling setup (Lenis handles HTML, but this ensures overflow behavior) */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
