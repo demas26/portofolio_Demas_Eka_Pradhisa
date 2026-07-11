@@ -27,6 +27,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
+        "APP_KEY": "base64:iVNMW3G/MC7WkF9cP2n0lOnuclbPL5Jx01fJTRoEbro=",
         "APP_URL": "https://demasekapradhisa.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
