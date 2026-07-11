@@ -12,16 +12,12 @@
     ],
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/public/build/$1"
-        },
-        {
-            "src": "/(css|js|images|fonts|favicon.svg)/(.*)",
-            "dest": "/public/$1/$2"
+            "src": "/(build|css|js|images|fonts|favicon\\.svg|.*\\.pdf)/(.*)",
+            "dest": "public/$1/$2"
         },
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "api/index.php"
         }
     ],
     "env": {
