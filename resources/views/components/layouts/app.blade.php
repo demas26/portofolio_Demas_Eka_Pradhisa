@@ -14,8 +14,30 @@
     @scroll.window="updateScroll()">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Force Desktop Layout on Mobile -->
+    <meta name="viewport" content="width=1280">
     <title>Demas Eka Pradhisa | Web Developer & System Analyst</title>
+
+    <!-- Meta Tags & SEO -->
+    <meta name="description" content="Portofolio resmi Demas Eka Pradhisa, seorang Web Developer dan System Analyst. Mahasiswa Sistem Informasi Telkom University.">
+    <meta name="keywords" content="Demas Eka Pradhisa, Web Developer, System Analyst, UI/UX Designer, Telkom University, Laravel, Tailwind CSS, Portfolio">
+    <meta name="author" content="Demas Eka Pradhisa">
+    
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://demasekapradhisa.com/">
+    <meta property="og:title" content="Demas Eka Pradhisa | Web Developer & System Analyst">
+    <meta property="og:description" content="Portofolio resmi Demas Eka Pradhisa. Jelajahi berbagai proyek web, UI/UX, dan analisa sistem yang telah saya kembangkan.">
+    <meta property="og:image" content="{{ asset('images/og-preview.png') }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Demas Eka Pradhisa | Web Developer & System Analyst">
+    <meta property="twitter:description" content="Portofolio resmi Demas Eka Pradhisa. Jelajahi berbagai proyek web, UI/UX, dan analisa sistem yang telah saya kembangkan.">
+    <meta property="twitter:image" content="{{ asset('images/og-preview.png') }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">

@@ -43,6 +43,9 @@
             <!-- Testimonials & Certifications Section -->
             <x-portfolio.testimonials />
 
+            <!-- GitHub Dashboard Section -->
+            <x-portfolio.github />
+
             <!-- Contact Section -->
             <x-portfolio.contact />
         </div>

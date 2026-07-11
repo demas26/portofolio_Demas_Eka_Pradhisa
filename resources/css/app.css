@@ -3,13 +3,19 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-primary: #121212; /* Deep Black */
-  --color-secondary: #F8F9FA; /* Clean White / Light Gray */
-  --color-accent: #0D9488; /* Professional Teal */
-  
-  --color-dark-bg: #0f172a; /* Slate 900 */
-  --color-dark-card: #1e293b; /* Slate 800 */
-  --color-dark-border: #334155; /* Slate 700 */
+  --color-primary: #121212;
+  /* Deep Black */
+  --color-secondary: #F8F9FA;
+  /* Clean White / Light Gray */
+  --color-accent: #0D9488;
+  /* Professional Teal */
+
+  --color-dark-bg: #0f172a;
+  /* Slate 900 */
+  --color-dark-card: #1e293b;
+  /* Slate 800 */
+  --color-dark-border: #334155;
+  /* Slate 700 */
 
   --font-sans: 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, sans-serif;
 }
@@ -32,7 +38,12 @@ body {
   body {
     cursor: none;
   }
-  a, button, input, textarea, select {
+
+  a,
+  button,
+  input,
+  textarea,
+  select {
     cursor: none;
   }
 }
@@ -72,21 +83,29 @@ body {
 
 /* Mesh Gradient Animation */
 @keyframes mesh {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .mesh-bg {
   background: radial-gradient(at 0% 0%, rgba(13, 148, 136, 0.15) 0px, transparent 50%),
-              radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%);
+    radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%);
   background-size: 200% 200%;
   animation: mesh 10s ease infinite;
 }
 
 .dark .mesh-bg {
   background: radial-gradient(at 0% 0%, rgba(13, 148, 136, 0.25) 0px, transparent 50%),
-              radial-gradient(at 100% 0%, rgba(30, 58, 138, 0.25) 0px, transparent 50%);
+    radial-gradient(at 100% 0%, rgba(30, 58, 138, 0.25) 0px, transparent 50%);
   background-size: 200% 200%;
   animation: mesh 10s ease infinite;
 }
@@ -95,6 +114,7 @@ body {
 .timeline-dot {
   box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.2);
 }
+
 .dark .timeline-dot {
   box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.4);
 }
@@ -112,11 +132,9 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(
-    800px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
-    rgba(13, 148, 136, 0.08),
-    transparent 40%
-  );
+  background: radial-gradient(800px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+      rgba(13, 148, 136, 0.08),
+      transparent 40%);
   z-index: 0;
   pointer-events: none;
   opacity: 0;
@@ -124,11 +142,9 @@ body {
 }
 
 .dark .floating-card::before {
-  background: radial-gradient(
-    800px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
-    rgba(13, 148, 136, 0.15),
-    transparent 40%
-  );
+  background: radial-gradient(800px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+      rgba(13, 148, 136, 0.15),
+      transparent 40%);
 }
 
 .floating-card:hover::before {
@@ -136,15 +152,20 @@ body {
 }
 
 /* Ensure content stays above spotlight */
-.floating-card > * {
+.floating-card>* {
   position: relative;
   z-index: 10;
 }
 
 /* Typographic Marquee Animation */
 @keyframes marquee {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-marquee {
@@ -173,12 +194,15 @@ body {
 }
 
 /* Smooth Scrolling setup (Lenis handles HTML, but this ensures overflow behavior) */
-html.lenis, html.lenis body {
+html.lenis,
+html.lenis body {
   height: auto;
 }
+
 .lenis.lenis-smooth {
   scroll-behavior: auto !important;
 }
+
 .lenis.lenis-smooth [data-lenis-prevent] {
   overscroll-behavior: contain;
 }

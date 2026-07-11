@@ -1,4 +1,4 @@
-<section class="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden min-h-[90vh] flex flex-col justify-center items-center text-center">
+<section class="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden min-h-[800px] flex flex-col justify-center items-center text-center">
     <!-- Starry/Particle Background -->
     <div class="absolute inset-0 z-0 pointer-events-none bg-[#0f172a] dark:bg-[#0f172a]">
         <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIj4KICA8cGF0aCBkPSJNMTAwIDEwMCBMIDMwMCAzMDAiIHN0cm9rZT0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIiAvPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iMSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpIiAvPgogIDxjaXJjbGUgY3g9IjMwMCIgY3k9IjMwMCIgcj0iMSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpIiAvPgo8L3N2Zz4=')] bg-repeat opacity-50"></div>
@@ -71,7 +71,7 @@
                 <a href="#projects" class="px-8 py-4 bg-white text-black text-sm font-bold rounded-full hover:scale-105 transition-transform flex items-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]">
                     View Projects <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </a>
-                <a href="#" class="px-8 py-4 bg-transparent border border-gray-600 text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
+                <a href="{{ asset('assets/CV _ Demas Eka Pradhisa.pdf') }}" download class="px-8 py-4 bg-transparent border border-gray-600 text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
                     Download CV
                 </a>
             </div>
@@ -129,29 +129,58 @@
     </div>
 
     <!-- Animated Counters -->
-    <div class="mt-auto pt-24 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto border-t border-gray-800 w-full relative z-10"
-         x-data="{ shown: false }" 
-         x-intersect.once="shown = true; 
-            new countUp.CountUp($refs.exp, 1).start();
-            new countUp.CountUp($refs.proj, 3).start();
-            new countUp.CountUp($refs.tech, 10).start();
-            new countUp.CountUp($refs.coffee, 100).start();">
-        
+    <div class="mt-auto pt-16 md:pt-24 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-4xl mx-auto border-t border-gray-800 w-full relative z-10" id="stats-container">
         <div class="text-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="exp">0</span>+</div>
-            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Years Experience</div>
+            <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="8">0</span>+</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Proyek</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="proj">0</span>+</div>
-            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Projects Done</div>
+            <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="5">0</span>+</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Riset</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="tech">0</span>+</div>
-            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Tech Stacks</div>
+            <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="12">0</span>+</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Sertifikat</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="coffee">0</span>+</div>
-            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Cups of Coffee</div>
+            <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="4">0</span>+</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Tahun Belajar</div>
         </div>
     </div>
 </section>
+
+<!-- Vanilla JS Counter Animation Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const counters = document.querySelectorAll('.stat-counter');
+        
+        const animateCounters = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    counters.forEach(counter => {
+                        const target = +counter.getAttribute('data-target');
+                        let count = 0;
+                        // Animate over 2 seconds
+                        const duration = 2000; 
+                        const stepTime = Math.abs(Math.floor(duration / target));
+                        
+                        const timer = setInterval(() => {
+                            count += 1;
+                            counter.innerText = count;
+                            if (count >= target) {
+                                clearInterval(timer);
+                                counter.innerText = target;
+                            }
+                        }, stepTime);
+                    });
+                    // Stop observing once animation has run
+                    observer.disconnect();
+                }
+            });
+        };
+
+        const observer = new IntersectionObserver(animateCounters, { threshold: 0.5 });
+        const statsContainer = document.getElementById('stats-container');
+        if (statsContainer) observer.observe(statsContainer);
+    });
+</script>
