@@ -1,33 +1,38 @@
-<section class="relative pt-40 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden min-h-[90vh] flex flex-col justify-center">
-    <!-- Orbital Background Elements -->
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] max-w-4xl aspect-square pointer-events-none z-0 opacity-20 dark:opacity-30">
-        <!-- Orbit 1 -->
-        <div class="absolute inset-10 border border-dashed border-gray-400 dark:border-gray-500 rounded-full animate-[spin_40s_linear_infinite]"></div>
-        <!-- Orbit 2 -->
-        <div class="absolute inset-24 border border-gray-300 dark:border-gray-600 rounded-full animate-[spin_60s_linear_infinite_reverse]"></div>
-        <!-- Orbit 3 -->
-        <div class="absolute inset-40 border border-dashed border-accent/50 rounded-full animate-[spin_80s_linear_infinite]"></div>
+<section class="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden min-h-[90vh] flex flex-col justify-center items-center text-center">
+    <!-- Starry/Particle Background -->
+    <div class="absolute inset-0 z-0 pointer-events-none bg-[#0f172a] dark:bg-[#0f172a]">
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIj4KICA8cGF0aCBkPSJNMTAwIDEwMCBMIDMwMCAzMDAiIHN0cm9rZT0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIiAvPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgcj0iMSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpIiAvPgogIDxjaXJjbGUgY3g9IjMwMCIgY3k9IjMwMCIgcj0iMSIgZmlsbD0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpIiAvPgo8L3N2Zz4=')] bg-repeat opacity-50"></div>
     </div>
+    
+    <!-- Ambient Glow -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none z-0"></div>
 
-    <div class="relative z-10 text-center max-w-4xl mx-auto mb-16" data-aos="fade-up" data-aos-duration="1000">
-        <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/50 dark:bg-gray-800/50 backdrop-blur-md rounded-full text-xs font-semibold text-gray-600 dark:text-gray-300 tracking-wide uppercase mb-8 border border-gray-200 dark:border-gray-700 shadow-sm">
-            <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+    <div class="relative z-10 w-full max-w-4xl flex flex-col items-center mt-12">
+        <!-- Availability Badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-gray-900/50 backdrop-blur-md rounded-full text-xs font-semibold text-gray-300 tracking-wider uppercase mb-10 border border-gray-700 shadow-lg" data-aos="fade-up">
+            <span class="relative flex h-2.5 w-2.5">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+            </span>
             Available for opportunities
         </div>
         
-        <h1 class="text-5xl md:text-7xl font-black tracking-tight text-primary dark:text-white mb-6 leading-tight font-sans">
-            I design systems.<br>
-            <span class="text-gray-400 dark:text-gray-500">I build experiences.</span>
+        <!-- Main Headline -->
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-8 leading-[1.1] font-sans" data-aos="fade-up" data-aos-delay="100">
+            <span class="text-white block">I design systems.</span>
+            <span class="text-gray-500 block mt-2">I build experiences.</span>
         </h1>
-        <p class="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed mb-8">
+        
+        <!-- Sub-headline -->
+        <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed mb-8" data-aos="fade-up" data-aos-delay="200">
             Halo, saya Demas Eka Pradhisa. Saya mengubah alur bisnis yang kompleks menjadi produk digital dan sistem yang terstruktur, efisien, dan ramah pengguna.
         </p>
 
         <!-- Typing Effect -->
-        <div class="text-lg font-mono text-accent dark:text-teal-400 mb-10 h-8 font-semibold"
+        <div class="text-lg md:text-xl font-mono text-cyan-400 mb-12 h-8 font-semibold" data-aos="fade-up" data-aos-delay="300"
              x-data="{ 
                 text: '',
-                words: ['Web Developer.', 'System Analyst.', 'UI/UX Designer.'],
+                words: ['UI/UX & Web Development'],
                 wordIndex: 0,
                 charIndex: 0,
                 isDeleting: false,
@@ -44,7 +49,7 @@
                     let typeSpeed = this.isDeleting ? 50 : 100;
                     
                     if(!this.isDeleting && this.charIndex === currentWord.length) {
-                        typeSpeed = 2000;
+                        typeSpeed = 4000;
                         this.isDeleting = true;
                     } else if(this.isDeleting && this.charIndex === 0) {
                         this.isDeleting = false;
@@ -59,63 +64,94 @@
             Focused on <strong x-text="text"></strong><span class="animate-pulse">_</span>
         </div>
         
-        <div class="flex flex-wrap gap-4 justify-center">
-            <a href="#projects" class="magnetic-btn px-8 py-4 bg-primary dark:bg-white text-white dark:text-primary text-sm font-bold rounded-full hover:scale-105 transition-transform flex items-center gap-2 shadow-lg hover:shadow-xl">
-                View projects <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-            </a>
-            <a href="#" class="magnetic-btn px-8 py-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md border border-gray-200 dark:border-gray-700 text-primary dark:text-white text-sm font-bold rounded-full hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors shadow-sm">
-                Download CV
-            </a>
+        <!-- Buttons & Profile Picture Area -->
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 w-full relative" data-aos="fade-up" data-aos-delay="400">
+            
+            <div class="flex flex-col sm:flex-row gap-4 z-20">
+                <a href="#projects" class="px-8 py-4 bg-white text-black text-sm font-bold rounded-full hover:scale-105 transition-transform flex items-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]">
+                    View Projects <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+                <a href="#" class="px-8 py-4 bg-transparent border border-gray-600 text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
+                    Download CV
+                </a>
+            </div>
+
+            <!-- Profile Picture -->
+            <div class="relative mt-8 md:mt-0 md:ml-8 z-20 hidden md:block">
+                <div class="w-20 h-20 rounded-full border-2 border-gray-600 overflow-hidden shadow-2xl hover:scale-110 transition-transform cursor-pointer bg-red-600">
+                    <img src="{{ asset('images/foto.jpg') }}" alt="Demas Eka Pradhisa" class="w-full h-full object-cover">
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Floating Orbital Elements -->
-    <div class="relative w-full max-w-5xl mx-auto h-0" data-aos="fade-up" data-aos-delay="400">
-        <!-- Floating Profile Avatar -->
-        <div class="absolute -top-32 md:-top-56 right-4 md:right-32 w-20 md:w-28 h-20 md:h-28 rounded-full border-[3px] border-white dark:border-gray-700 shadow-2xl overflow-hidden z-20 animate-[bounce_6s_infinite]">
-            <img src="{{ asset('images/foto.jpg') }}" alt="Demas Eka Pradhisa" class="w-full h-full object-cover">
+    <!-- Floating Badges (Glassmorphism) -->
+    <div class="absolute inset-0 w-full h-full pointer-events-none z-20 overflow-hidden hidden md:block">
+        <!-- Top Left Corner Badge: Web Developer -->
+        <div class="absolute top-[15%] lg:top-[20%] left-[2%] lg:left-[4%] bg-gray-900/60 backdrop-blur-xl px-5 py-3 border border-gray-700/50 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] animate-[bounce_6s_infinite] flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+            </div>
+            <div>
+                <strong class="text-sm text-white block">Web Developer</strong>
+            </div>
         </div>
-        
-        <!-- Floating Tags -->
-        <div class="absolute -top-64 left-2 md:left-20 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md px-4 py-2 border border-gray-200 dark:border-gray-700 rounded-xl shadow-lg z-20 animate-[bounce_5s_infinite_reverse]">
-            <span class="text-[10px] font-bold text-gray-500 dark:text-gray-400 block mb-1 uppercase tracking-wider">Primary Role</span>
-            <strong class="text-sm text-primary dark:text-white flex items-center gap-2">
-                <span class="text-accent font-mono">&lt;/&gt;</span> Web Developer
-            </strong>
+
+        <!-- Top Right Corner Badge: UI/UX Designer -->
+        <div class="absolute top-[15%] lg:top-[20%] right-[2%] lg:right-[4%] bg-gray-900/60 backdrop-blur-xl px-5 py-3 border border-gray-700/50 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] animate-[bounce_5s_infinite_reverse] flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
+            </div>
+            <div>
+                <strong class="text-sm text-white block">UI/UX Designer</strong>
+            </div>
         </div>
-        
-        <div class="absolute -top-10 left-10 md:left-40 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md px-4 py-2 border border-gray-200 dark:border-gray-700 rounded-xl shadow-lg z-20 animate-[bounce_7s_infinite]">
-            <span class="text-[10px] font-bold text-gray-500 dark:text-gray-400 block mb-1 uppercase tracking-wider">Based in</span>
-            <strong class="text-sm text-primary dark:text-white flex items-center gap-2">
-                <span class="text-accent font-mono">ID</span> Indonesia
-            </strong>
+
+        <!-- Bottom Left Corner Badge: BNSP System Analyst -->
+        <div class="absolute bottom-[30%] lg:bottom-[35%] left-[2%] lg:left-[4%] bg-gray-900/60 backdrop-blur-xl px-5 py-3 border border-gray-700/50 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] animate-[bounce_7s_infinite] flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-cyan-500/20 flex items-center justify-center text-cyan-400 shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+            </div>
+            <div>
+                <strong class="text-sm text-white block">BNSP System Analyst</strong>
+            </div>
+        </div>
+
+        <!-- Bottom Right Corner Badge: Tangerang Selatan -->
+        <div class="absolute bottom-[30%] lg:bottom-[35%] right-[2%] lg:right-[4%] bg-gray-900/60 backdrop-blur-xl px-5 py-3 border border-gray-700/50 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.5)] animate-[bounce_4s_infinite_reverse] flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-red-500/20 flex items-center justify-center text-red-400 shrink-0">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            </div>
+            <div>
+                <strong class="text-sm text-white block">Tangerang Selatan, ID</strong>
+            </div>
         </div>
     </div>
 
     <!-- Animated Counters -->
-    <div class="mt-auto pt-24 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto border-t border-gray-200 dark:border-gray-800 w-full relative z-10"
+    <div class="mt-auto pt-24 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto border-t border-gray-800 w-full relative z-10"
          x-data="{ shown: false }" 
          x-intersect.once="shown = true; 
-            new countUp.CountUp($refs.exp, 3).start();
-            new countUp.CountUp($refs.proj, 10).start();
-            new countUp.CountUp($refs.tech, 5).start();
-            new countUp.CountUp($refs.coffee, 500).start();">
+            new countUp.CountUp($refs.exp, 1).start();
+            new countUp.CountUp($refs.proj, 3).start();
+            new countUp.CountUp($refs.tech, 10).start();
+            new countUp.CountUp($refs.coffee, 100).start();">
         
         <div class="text-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="text-4xl font-extrabold text-accent mb-2"><span x-ref="exp">0</span>+</div>
-            <div class="text-sm text-gray-500 dark:text-gray-400 font-medium">Years Experience</div>
+            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="exp">0</span>+</div>
+            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Years Experience</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="text-4xl font-extrabold text-accent mb-2"><span x-ref="proj">0</span>+</div>
-            <div class="text-sm text-gray-500 dark:text-gray-400 font-medium">Projects Done</div>
+            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="proj">0</span>+</div>
+            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Projects Done</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="300">
-            <div class="text-4xl font-extrabold text-accent mb-2"><span x-ref="tech">0</span>+</div>
-            <div class="text-sm text-gray-500 dark:text-gray-400 font-medium">Tech Stacks</div>
+            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="tech">0</span>+</div>
+            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Tech Stacks</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-            <div class="text-4xl font-extrabold text-accent mb-2"><span x-ref="coffee">0</span>+</div>
-            <div class="text-sm text-gray-500 dark:text-gray-400 font-medium">Cups of Coffee</div>
+            <div class="text-4xl md:text-5xl font-extrabold text-cyan-400 mb-2"><span x-ref="coffee">0</span>+</div>
+            <div class="text-xs md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Cups of Coffee</div>
         </div>
     </div>
 </section>

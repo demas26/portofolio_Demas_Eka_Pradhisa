@@ -1,79 +1,79 @@
-<section id="about" class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-    <div class="mb-12" data-aos="fade-right">
-        <h2 class="text-3xl font-bold text-primary dark:text-white mb-2 tracking-tight">About & Experience</h2>
-        <p class="text-gray-500 dark:text-gray-400">Perjalanan karir, pendidikan, dan filosofi kerja saya.</p>
+<section id="about" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    
+    <!-- Top Section (Free Text) -->
+    <div class="mb-20 max-w-4xl" data-aos="fade-up">
+        <p class="text-cyan-400 text-sm font-bold tracking-widest uppercase mb-6">01 / ABOUT & EXPERIENCE</p>
+        <h2 class="text-5xl md:text-7xl font-black text-white tracking-tight leading-tight mb-2">
+            Analitis secara alami.
+        </h2>
+        <h2 class="text-5xl md:text-7xl font-black text-gray-500 tracking-tight leading-tight mb-8">
+            Terstruktur melalui praktik.
+        </h2>
+        <p class="text-xl text-gray-400 leading-relaxed max-w-2xl">
+            Mahasiswa Sistem Informasi Telkom University yang berfokus pada pengembangan full-stack web, desain UI/UX, dan pemetaan proses bisnis.
+        </p>
     </div>
 
-    <!-- Bento Box Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Bottom Section (Asymmetrical Unique Bento Grid) -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative z-10">
         
-        <!-- Large Box: Philosophy & Intro (Span 2) -->
-        <div class="md:col-span-2 floating-card p-8 border border-gray-100 dark:border-gray-800 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
-            <div class="absolute -right-20 -top-20 w-64 h-64 bg-accent/5 rounded-full blur-3xl"></div>
-            <h2 class="text-3xl font-bold text-primary dark:text-white tracking-tight mb-4">Analitis secara alami.<br><span class="text-gray-400 dark:text-gray-500">Terstruktur melalui praktik.</span></h2>
-            <div class="prose prose-lg text-gray-600 dark:text-gray-400">
-                <p>
-                    Saya adalah seorang mahasiswa Sistem Informasi di Telkom University yang memiliki passion mendalam pada pengembangan *Full-Stack Web*, desain UI/UX, dan membantu transformasi digital pada sektor UMKM.
-                </p>
-                <p class="mt-4">
-                    Bagi saya, sistem yang hebat bukan hanya sekadar berfungsi, tetapi juga harus membuat kompleksitas bisnis terasa sangat mudah dan intuitif bagi penggunanya.
-                </p>
+        <!-- Card 1: Top Left - Wide Rectangle (Span 2 cols) -->
+        <div class="md:col-span-2 bg-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+            <!-- Background Accent -->
+            <div class="absolute -right-10 -top-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-colors duration-700 pointer-events-none"></div>
+
+            <span class="text-cyan-400 text-xs font-bold tracking-widest uppercase mb-6 block relative z-10">CURRENT FOCUS</span>
+            
+            <p class="text-white text-xl md:text-2xl font-medium leading-relaxed mb-8 relative z-10">
+                Membangun sistem POS dan manajemen digital <strong class="text-cyan-400">(Dapur Riuh)</strong> untuk otomatisasi pelaporan real-time.
+            </p>
+            
+            <a href="#contact" class="inline-flex items-center gap-2 text-gray-900 font-bold bg-cyan-400 hover:bg-white px-6 py-3 rounded-full transition-all w-fit relative z-10 shadow-lg group-hover:scale-105">
+                Mari bangun bersama <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+        </div>
+
+        <!-- Card 2: Right Column - Large & Tall (Span 2 cols, 2 rows) -->
+        <div class="md:col-span-2 md:row-span-2 bg-gradient-to-b from-gray-800/80 to-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col h-full group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+            <span class="text-gray-500 text-sm font-bold tracking-widest uppercase mb-12 block">A / 01</span>
+            
+            <h3 class="text-3xl md:text-4xl font-bold text-white mb-6 leading-snug">Menjembatani alur bisnis & solusi digital.</h3>
+            
+            <p class="text-gray-400 text-lg leading-relaxed mb-auto">
+                Saya merancang sistem terintegrasi yang menyederhanakan kompleksitas operasional menjadi antarmuka yang intuitif untuk UMKM. Berfokus pada skalabilitas dan performa.
+            </p>
+            
+            <div class="mt-12 flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-gray-900/80 rounded-full border border-gray-700 text-cyan-400 text-sm font-semibold shadow-sm group-hover:border-cyan-500/50 transition-colors">Laravel</span>
+                <span class="px-4 py-2 bg-gray-900/80 rounded-full border border-gray-700 text-cyan-400 text-sm font-semibold shadow-sm group-hover:border-cyan-500/50 transition-colors">Tailwind CSS</span>
+                <span class="px-4 py-2 bg-gray-900/80 rounded-full border border-gray-700 text-cyan-400 text-sm font-semibold shadow-sm group-hover:border-cyan-500/50 transition-colors">Figma</span>
             </div>
         </div>
 
-        <!-- Small Box: Profile Image -->
-        <div class="floating-card p-6 border border-gray-100 dark:border-gray-800 relative overflow-hidden flex flex-col items-center justify-center text-center group bg-gradient-to-br from-white to-gray-50 dark:from-gray-800 dark:to-gray-900" data-aos="fade-up" data-aos-delay="200">
-            <div class="relative mb-5 mt-2">
-                <!-- Glowing ring -->
-                <div class="absolute inset-0 bg-accent/30 rounded-full blur-xl animate-pulse group-hover:bg-accent/50 transition-colors duration-500"></div>
-                <!-- Frame -->
-                <div class="relative w-36 h-36 rounded-full border-[6px] border-white dark:border-gray-700 overflow-hidden shadow-xl transform group-hover:scale-105 transition-transform duration-500 bg-gray-200 dark:bg-gray-800">
-                    <img src="{{ asset('images/foto.jpg') }}" alt="Demas Eka Pradhisa" class="w-full h-full object-cover">
-                </div>
-                <!-- Online badge dot on the frame -->
-                <div class="absolute bottom-2 right-2 w-5 h-5 bg-green-500 border-[3px] border-white dark:border-gray-700 rounded-full shadow-sm"></div>
+        <!-- Card 3: Bottom Left - Small Square (Span 1 col) -->
+        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+            <div class="w-10 h-10 bg-cyan-500/10 rounded-full flex items-center justify-center mb-6">
+                <svg class="w-5 h-5 text-cyan-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
             </div>
             
-            <h3 class="font-bold text-primary dark:text-white text-lg tracking-tight mb-1">Demas Eka P.</h3>
-            <p class="text-xs text-gray-500 dark:text-gray-400 font-medium mb-4 uppercase tracking-wider">Web Developer</p>
+            <p class="text-gray-300 text-md font-medium leading-relaxed mb-6 italic">
+                "Teknologi terbaik bekerja senyap di latar belakang."
+            </p>
             
-            <div class="flex items-center gap-2 text-primary dark:text-gray-300 text-xs px-4 py-1.5 bg-white dark:bg-gray-800 rounded-full border border-gray-200 dark:border-gray-700 shadow-sm font-semibold">
-                <div class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div>
-                Available for work
-            </div>
+            <span class="text-gray-500 text-xs font-bold tracking-widest uppercase">PRINCIPLE</span>
         </div>
 
-        <!-- Large Box: Vertical Timeline (Span 2) -->
-        <div class="md:col-span-2 floating-card p-8 border border-gray-100 dark:border-gray-800" data-aos="fade-up" data-aos-delay="300">
-            <h3 class="text-xl font-bold text-primary dark:text-white mb-6 flex items-center gap-2">
-                <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                Experience & Education
-            </h3>
+        <!-- Card 4: Bottom Center - Small Square (Span 1 col) -->
+        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="400">
+            <span class="text-gray-500 text-xs font-bold tracking-widest uppercase mb-8 block">EDU & CERT</span>
             
-            <div class="relative border-l-2 border-gray-100 dark:border-gray-700 ml-3 space-y-8">
-                <!-- Item 1 -->
-                <div class="relative pl-6">
-                    <div class="absolute w-4 h-4 bg-white dark:bg-gray-800 rounded-full -left-[9px] top-1 border-2 border-accent timeline-dot"></div>
-                    <h4 class="font-bold text-primary dark:text-white text-lg">Web Developer Freelance</h4>
-                    <p class="text-sm text-accent font-medium mb-2">2023 - Present</p>
-                    <p class="text-gray-500 dark:text-gray-400 text-sm">Membangun berbagai sistem manajemen dan Point of Sale (POS) untuk membantu operasional UMKM secara digital menggunakan Laravel & Tailwind CSS.</p>
+            <div class="mt-auto">
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-gray-800/80 rounded-full border border-gray-700/50 text-white text-xs font-bold mb-4">
+                    <div class="w-2 h-2 rounded-full bg-red-500"></div> Telkom Univ
                 </div>
-                <!-- Item 2 -->
-                <div class="relative pl-6">
-                    <div class="absolute w-4 h-4 bg-white dark:bg-gray-800 rounded-full -left-[9px] top-1 border-2 border-gray-300 dark:border-gray-600"></div>
-                    <h4 class="font-bold text-primary dark:text-white text-lg">S1 Sistem Informasi</h4>
-                    <p class="text-sm text-gray-500 dark:text-gray-400 font-medium mb-2">Telkom University • Semester 7</p>
-                    <p class="text-gray-500 dark:text-gray-400 text-sm">Fokus pada rekayasa perangkat lunak, analisis sistem, dan desain UI/UX interaktif.</p>
-                </div>
+                <p class="text-cyan-400 font-bold leading-snug text-sm">BNSP Certified<br>System Analyst</p>
             </div>
         </div>
-
-        <!-- Small Box: Contact CTA -->
-        <div class="floating-card p-8 border border-gray-100 dark:border-gray-800 bg-primary dark:bg-accent text-white flex flex-col justify-center items-center text-center" data-aos="fade-up" data-aos-delay="400">
-            <svg class="w-12 h-12 mb-4 text-accent dark:text-white opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-            <h3 class="text-xl font-bold mb-2">Let's build together</h3>
-            <p class="text-gray-400 dark:text-teal-100 text-sm mb-6">Punya ide proyek atau butuh bantuan analisis sistem?</p>
-            <a href="#contact" class="px-6 py-2 bg-white text-primary rounded-full text-sm font-bold hover:scale-105 transition-transform w-full">Contact Me</a>
-        </div>
+        
     </div>
 </section>

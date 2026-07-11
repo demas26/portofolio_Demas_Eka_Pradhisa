@@ -31,6 +31,9 @@
             <!-- Capabilities Section -->
             <x-portfolio.capabilities />
 
+            <!-- Technical Toolkit Section -->
+            <x-portfolio.toolkit />
+
             <!-- Marquee Section -->
             <x-portfolio.marquee />
 
@@ -41,51 +44,7 @@
             <x-portfolio.testimonials />
 
             <!-- Contact Section -->
-            <section id="contact" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto border-t border-gray-100 dark:border-gray-800 mt-20">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div data-aos="fade-right">
-                        <h2 class="text-3xl font-bold text-primary dark:text-white mb-4 tracking-tight">Let's connect.</h2>
-                        <p class="text-gray-500 dark:text-gray-400 mb-8">Hubungi saya untuk diskusi proyek atau kolaborasi sistem.</p>
-                        
-                        <div class="space-y-4">
-                            <div class="flex items-center gap-3 text-gray-600 dark:text-gray-300">
-                                <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                                <span>demas.pradhisa@gmail.com</span>
-                            </div>
-                            <div class="flex items-center gap-3 text-gray-600 dark:text-gray-300">
-                                <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <span>Tangerang, Indonesia</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="floating-card p-8 border border-gray-100 dark:border-gray-800" data-aos="fade-left">
-                        <form class="space-y-6">
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                                <div>
-                                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Nama</label>
-                                    <input type="text" class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="John Doe">
-                                </div>
-                                <div>
-                                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email</label>
-                                    <input type="email" class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="john@example.com">
-                                </div>
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Subjek</label>
-                                <input type="text" class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors" placeholder="Proyek Sistem Baru">
-                            </div>
-                            <div>
-                                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Pesan</label>
-                                <textarea rows="4" class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-gray-900 dark:text-white rounded-lg focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors resize-none" placeholder="Ceritakan tentang bisnis Anda..."></textarea>
-                            </div>
-                            <button type="submit" class="magnetic-btn w-full bg-primary dark:bg-accent text-white py-4 rounded-lg font-bold hover:bg-accent dark:hover:bg-teal-500 transition-colors flex items-center justify-center gap-2">
-                                Kirim pesan <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </section>
+            <x-portfolio.contact />
         </div>
     </div>
 </x-layouts.app>
