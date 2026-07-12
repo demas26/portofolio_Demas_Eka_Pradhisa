@@ -13,7 +13,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
         <!-- Large Left Card: Borderless Minimalist Form -->
-        <div class="md:col-span-2 bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
+        <div class="md:col-span-2 bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
             <h3 class="text-2xl font-bold text-white mb-8">Send a message</h3>
             <form action="https://formsubmit.co/demas.pradhisa@gmail.com" method="POST" class="space-y-8" 
                   x-data="{ isSubmitting: false }" 
@@ -52,7 +52,7 @@
         <div class="flex flex-col gap-6">
             
             <!-- Top Right Card: Status & Direct Copy -->
-            <div class="bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500 flex flex-col justify-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500 flex flex-col justify-center" data-aos="fade-up" data-aos-delay="200">
                 <div class="flex items-center gap-3 mb-6">
                     <span class="relative flex h-3 w-3">
                         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
@@ -70,7 +70,7 @@
             </div>
 
             <!-- Bottom Right Card: Social Grid -->
-            <div class="bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500 h-full flex flex-col justify-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500 h-full flex flex-col justify-center" data-aos="fade-up" data-aos-delay="300">
                 <h4 class="text-gray-400 text-xs uppercase tracking-widest font-bold mb-4">Socials & Links</h4>
                 <div class="grid grid-cols-2 gap-4">
                     <!-- GitHub -->

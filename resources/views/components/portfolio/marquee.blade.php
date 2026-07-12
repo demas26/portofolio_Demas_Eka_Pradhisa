@@ -26,4 +26,44 @@
             <span class="text-3xl text-accent">✦</span>
         </div>
     </div>
+    
+    <!-- Script for Scroll-Interactive Marquee -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let lastScrollY = window.scrollY;
+            let currentDirection = -1; // -1 for left, 1 for right
+            let currentPosition = 0;
+            const marqueeElement = document.querySelector('.animate-marquee');
+            
+            // Disable the CSS animation to take over with JS
+            if(marqueeElement) {
+                marqueeElement.style.animation = 'none';
+                
+                const animate = () => {
+                    // Base speed
+                    let speed = 1.5;
+                    currentPosition += (speed * currentDirection);
+                    
+                    // Reset if it goes out of bounds (assuming 2 copies, it needs to loop at 50%)
+                    if (currentPosition <= -50) currentPosition = 0;
+                    if (currentPosition >= 0) currentPosition = -50;
+                    
+                    marqueeElement.style.transform = `translateX(${currentPosition}%)`;
+                    requestAnimationFrame(animate);
+                };
+                
+                requestAnimationFrame(animate);
+                
+                window.addEventListener('scroll', () => {
+                    const scrollY = window.scrollY;
+                    if (scrollY > lastScrollY) {
+                        currentDirection = -1; // Scrolling down -> move left
+                    } else if (scrollY < lastScrollY) {
+                        currentDirection = 1; // Scrolling up -> move right
+                    }
+                    lastScrollY = scrollY;
+                });
+            }
+        });
+    </script>
 </section>

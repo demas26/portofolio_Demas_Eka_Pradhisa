@@ -32,7 +32,7 @@
             <div>
                 <div class="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-4">GITHUB PROFILE</div>
                 <div class="flex items-start gap-4 mb-6">
-                    <img :src="profile?.avatar_url || 'https://github.com/identicons/demas26.png'" class="w-16 h-16 rounded-xl bg-gray-800 shadow-[0_0_15px_rgba(34,211,238,0.2)]">
+                    <img :src="profile?.avatar_url || 'https://github.com/identicons/demas26.png'" alt="GitHub Profile Avatar" loading="lazy" class="w-16 h-16 rounded-xl bg-gray-800 shadow-[0_0_15px_rgba(34,211,238,0.2)]">
                     <div>
                         <h3 class="text-2xl font-bold" x-text="profile?.name || 'Demas Eka Pradhisa'"></h3>
                         <a href="https://github.com/demas26" target="_blank" class="text-cyan-400 text-sm font-semibold hover:underline">@demas26 ↗</a>
@@ -129,7 +129,7 @@
         <h3 class="text-xl font-bold mb-8">GitHub Contributions</h3>
         <div class="w-full overflow-x-auto pb-4 scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent">
             <!-- Using custom cyan color for the contribution graph: 22d3ee (tailwind cyan-400) -->
-            <img src="https://ghchart.rshah.org/22d3ee/demas26" alt="GitHub Contributions" class="min-w-[800px] opacity-80 hover:opacity-100 transition-opacity drop-shadow-[0_0_15px_rgba(34,211,238,0.15)] filter saturate-150">
+            <img loading="lazy" src="https://ghchart.rshah.org/22d3ee/demas26" alt="GitHub Contributions" class="min-w-[800px] opacity-80 hover:opacity-100 transition-opacity drop-shadow-[0_0_15px_rgba(34,211,238,0.15)] filter saturate-150">
         </div>
         <p class="text-[10px] text-gray-500 mt-2 font-medium">Contribution data fetched directly from public GitHub profile.</p>
     </div>

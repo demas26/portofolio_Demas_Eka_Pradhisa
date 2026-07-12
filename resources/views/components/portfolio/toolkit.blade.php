@@ -15,7 +15,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 relative z-10">
         
         <!-- Card 1: Frontend & UI -->
-        <div class="bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
+        <div class="bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
             <div class="w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-8 border border-cyan-500/20">
                 <span class="text-cyan-400 font-bold tracking-wider">FE</span>
             </div>
@@ -51,7 +51,7 @@
         </div>
 
         <!-- Card 2: Backend -->
-        <div class="bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+        <div class="bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
             <div class="w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-8 border border-cyan-500/20">
                 <span class="text-cyan-400 font-bold tracking-wider">BE</span>
             </div>
@@ -75,7 +75,7 @@
         </div>
 
         <!-- Card 3: Database -->
-        <div class="bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+        <div class="bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
             <div class="w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-8 border border-cyan-500/20">
                 <span class="text-cyan-400 font-bold tracking-wider">DB</span>
             </div>
@@ -104,7 +104,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
         
         <!-- Card 4: Workflow Tools (Small Left) -->
-        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="400">
+        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="400">
             <div class="flex items-center gap-4 mb-8">
                 <div class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center border border-cyan-500/20">
                     <span class="text-cyan-400 font-bold text-sm tracking-wider">TL</span>
@@ -121,7 +121,7 @@
         </div>
 
         <!-- Card 5: System Analysis (Wide Right) -->
-        <div class="md:col-span-2 bg-gray-900/60 backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="500">
+        <div class="md:col-span-2 bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border-t border-t-cyan-500/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="500">
             <div class="flex items-center gap-4 mb-8">
                 <div class="w-10 h-10 bg-cyan-500/10 rounded-xl flex items-center justify-center border border-cyan-500/20">
                     <span class="text-cyan-400 font-bold text-sm tracking-wider">SA</span>

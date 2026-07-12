@@ -83,13 +83,18 @@
     <!-- Alpine.js -->
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <!-- AOS JS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- CountUp JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.0/countUp.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.0/countUp.min.js"></script>
     <!-- Lenis JS -->
-    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+    <script defer src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+    <!-- GSAP -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Vanilla Tilt -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -192,7 +197,8 @@
                     }
                 }
                 
-                for (let i = 0; i < 80; i++) particles.push(new Particle());
+                const particleCount = window.innerWidth >= 768 ? 80 : 20;
+                for (let i = 0; i < particleCount; i++) particles.push(new Particle());
                 
                 window.mouseX = -1000;
                 window.mouseY = -1000;
@@ -227,6 +233,74 @@
                     requestAnimationFrame(animateParticles);
                 }
                 animateParticles();
+            }
+
+            // Initialize GSAP ScrollTrigger
+            gsap.registerPlugin(ScrollTrigger);
+
+            // Staggered Text Reveal
+            const splitText = (selector) => {
+                const element = document.querySelector(selector);
+                if(element) {
+                    const text = element.innerText;
+                    element.innerHTML = text.split('').map(char => 
+                        char === ' ' ? '&nbsp;' : `<span class="inline-block relative opacity-0 translate-y-8">${char}</span>`
+                    ).join('');
+                    return element.querySelectorAll('span');
+                }
+                return [];
+            };
+
+            const chars1 = splitText('.reveal-text-1');
+            const chars2 = splitText('.reveal-text-2');
+            
+            if(chars1.length || chars2.length) {
+                gsap.to([...chars1, ...chars2], {
+                    y: 0,
+                    opacity: 1,
+                    duration: 0.8,
+                    stagger: 0.02,
+                    ease: "back.out(1.7)",
+                    delay: 0.5
+                });
+            }
+
+            // Scroll-Driven Image Parallax (Desktop Only to save GPU)
+            if (window.matchMedia("(min-width: 768px)").matches) {
+                gsap.utils.toArray('.parallax-img').forEach(img => {
+                    gsap.to(img, {
+                        yPercent: 20,
+                        ease: "none",
+                        scrollTrigger: {
+                            trigger: img.parentElement,
+                            start: "top bottom",
+                            end: "bottom top",
+                            scrub: true
+                        }
+                    });
+                });
+            }
+            
+            // SVG Logo Drawing Animation
+            const logoPaths = document.querySelectorAll('.logo-path path');
+            if (logoPaths.length > 0) {
+                logoPaths.forEach(path => {
+                    const length = path.getTotalLength();
+                    path.style.strokeDasharray = length;
+                    path.style.strokeDashoffset = length;
+                    
+                    // Trigger animation after a slight delay
+                    setTimeout(() => {
+                        path.style.transition = 'stroke-dashoffset 2s ease-in-out, fill 1s ease 1.5s';
+                        path.style.strokeDashoffset = '0';
+                        path.style.fill = 'currentColor';
+                    }, 500);
+                });
+            }
+
+            // Initialize Vanilla Tilt explicitly (Desktop Only to prevent touch jank)
+            if (window.matchMedia("(min-width: 768px)").matches) {
+                VanillaTilt.init(document.querySelectorAll("[data-tilt]"));
             }
         });
     </script>

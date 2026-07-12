@@ -18,7 +18,7 @@
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative z-10">
         
         <!-- Card 1: Top Left - Wide Rectangle (Span 2 cols) -->
-        <div class="md:col-span-2 bg-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+        <div class="md:col-span-2 bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border border-gray-700/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500 relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
             <!-- Background Accent -->
             <div class="absolute -right-10 -top-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-colors duration-700 pointer-events-none"></div>
 
@@ -34,7 +34,7 @@
         </div>
 
         <!-- Card 2: Right Column - Large & Tall (Span 2 cols, 2 rows) -->
-        <div class="md:col-span-2 md:row-span-2 bg-gradient-to-b from-gray-800/80 to-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col h-full group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+        <div class="md:col-span-2 md:row-span-2 bg-gradient-to-b from-gray-800/80 to-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border border-gray-700/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col h-full group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
             <span class="text-gray-500 text-sm font-bold tracking-widest uppercase mb-12 block">A / 01</span>
             
             <h3 class="text-3xl md:text-4xl font-bold text-white mb-6 leading-snug">Bridging business flows & digital solutions.</h3>
@@ -51,7 +51,7 @@
         </div>
 
         <!-- Card 3: Bottom Left - Small Square (Span 1 col) -->
-        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border border-gray-700/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
             <div class="w-10 h-10 bg-cyan-500/10 rounded-full flex items-center justify-center mb-6">
                 <svg class="w-5 h-5 text-cyan-400" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
             </div>
@@ -64,7 +64,7 @@
         </div>
 
         <!-- Card 4: Bottom Center - Small Square (Span 1 col) -->
-        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="400">
+        <div class="md:col-span-1 bg-gray-900/60 backdrop-blur-sm md:backdrop-blur-xl border border-gray-700/30 rounded-3xl p-8 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col justify-between group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="400">
             <span class="text-gray-500 text-xs font-bold tracking-widest uppercase mb-8 block">EDU & CERT</span>
             
             <div class="mt-auto">

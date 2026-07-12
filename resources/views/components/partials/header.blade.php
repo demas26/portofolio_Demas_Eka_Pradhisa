@@ -4,7 +4,12 @@
             <!-- Logo -->
             <div class="flex-shrink-0 flex items-center gap-3" data-aos="fade-down">
                 <div class="w-10 h-10 rounded-full border border-gray-200 dark:border-gray-700 flex items-center justify-center bg-white dark:bg-gray-800 shadow-sm transition-colors duration-300">
-                    <span class="font-bold text-lg tracking-tight text-primary dark:text-white">DP</span>
+                    <svg class="logo-path w-6 h-6 text-primary dark:text-white" viewBox="0 0 64 64" fill="transparent" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+                        <!-- Letter D -->
+                        <path d="M 18 16 L 18 48 L 30 48 C 40 48 44 42 44 32 C 44 22 40 16 30 16 Z" />
+                        <!-- Letter P -->
+                        <path d="M 36 16 L 36 48 M 36 16 L 48 16 C 56 16 58 22 58 26 C 58 30 56 36 48 36 L 36 36" />
+                    </svg>
                 </div>
             </div>
             

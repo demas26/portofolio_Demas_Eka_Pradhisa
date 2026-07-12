@@ -9,7 +9,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
         <!-- Card 1 (Left Column - Span 1 - Tall Card) -->
-        <div class="md:col-span-1 bg-slate-800/50 backdrop-blur-xl border-t border-cyan-500/30 rounded-2xl p-8 shadow-lg flex flex-col relative group overflow-hidden transition-all duration-300 hover:border-cyan-500/50" data-aos="fade-up" data-aos-delay="100">
+        <div data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2" class="md:col-span-1 bg-slate-800/50 backdrop-blur-sm md:backdrop-blur-xl border-t border-cyan-500/30 rounded-2xl p-8 shadow-lg flex flex-col relative group overflow-hidden transition-all duration-300 hover:border-cyan-500/50" data-aos="fade-up" data-aos-delay="100">
             <!-- Icon -->
             <div class="w-14 h-14 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-8 border border-cyan-500/20">
                 <svg class="w-7 h-7 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
@@ -32,7 +32,7 @@
         <div class="md:col-span-2 flex flex-col gap-6">
             
             <!-- Card 2 (Right Column, Top - Span 2 - Wide Card) -->
-            <div class="bg-slate-800/50 backdrop-blur-xl border-t border-cyan-500/30 rounded-2xl p-8 shadow-lg transition-all duration-300 hover:border-cyan-500/50" data-aos="fade-up" data-aos-delay="200">
+            <div data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2" class="bg-slate-800/50 backdrop-blur-sm md:backdrop-blur-xl border-t border-cyan-500/30 rounded-2xl p-8 shadow-lg transition-all duration-300 hover:border-cyan-500/50" data-aos="fade-up" data-aos-delay="200">
                 <h3 class="text-xl font-bold text-white mb-1">Microsoft Ecosystem Credentials</h3>
                 <h4 class="text-cyan-400 text-sm font-semibold mb-6">Data Analytics, Power BI, Azure AI, & Cloud Computing</h4>
                 
@@ -76,7 +76,7 @@
             </div>
 
             <!-- Card 3 (Right Column, Bottom - Span 2 - Wide Card) -->
-            <div class="bg-slate-800/50 backdrop-blur-xl border-t border-cyan-500/30 rounded-2xl p-8 shadow-lg transition-all duration-300 hover:border-cyan-500/50" data-aos="fade-up" data-aos-delay="300">
+            <div data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-glare="true" data-tilt-max-glare="0.2" class="bg-slate-800/50 backdrop-blur-sm md:backdrop-blur-xl border-t border-cyan-500/30 rounded-2xl p-8 shadow-lg transition-all duration-300 hover:border-cyan-500/50" data-aos="fade-up" data-aos-delay="300">
                 <h3 class="text-xl font-bold text-white mb-1">Industry & Academic Engagements</h3>
                 <h4 class="text-cyan-400 text-sm font-semibold mb-6">Telkom University, Fiberstar, KSS Consulting & Professional Development</h4>
                 
