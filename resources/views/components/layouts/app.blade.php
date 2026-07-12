@@ -14,8 +14,8 @@
     @scroll.window="updateScroll()">
 <head>
     <meta charset="utf-8">
-    <!-- Responsive Viewport (Crucial for Mobile PageSpeed) -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Force Desktop Layout on Mobile (User Preference) -->
+    <meta name="viewport" content="width=1280">
     <title>Demas Eka Pradhisa | Web Developer & System Analyst</title>
 
     <!-- Meta Tags & SEO -->
