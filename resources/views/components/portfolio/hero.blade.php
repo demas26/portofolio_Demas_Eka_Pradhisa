@@ -18,7 +18,7 @@
         </div>
         
         <!-- Main Headline -->
-        <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-8 leading-[1.1] font-sans" data-aos="fade-up" data-aos-delay="100">
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tight mb-8 leading-[1.1] font-sans">
             <span class="text-white block reveal-text-1">I design systems.</span>
             <span class="text-gray-500 block mt-2 reveal-text-2">I build experiences.</span>
         </h1>

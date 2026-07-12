@@ -14,8 +14,8 @@
     @scroll.window="updateScroll()">
 <head>
     <meta charset="utf-8">
-    <!-- Force Desktop Layout on Mobile -->
-    <meta name="viewport" content="width=1280">
+    <!-- Responsive Viewport (Crucial for Mobile PageSpeed) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demas Eka Pradhisa | Web Developer & System Analyst</title>
 
     <!-- Meta Tags & SEO -->
@@ -39,15 +39,21 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
     
-    <!-- Fonts -->
+    <!-- Fonts (Preloaded) -->
     <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700,800&display=swap" rel="stylesheet" />
-    <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700&display=swap" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700,800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700,800&display=swap" rel="stylesheet" /></noscript>
+    
+    <link rel="preload" href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700&display=swap" rel="stylesheet" /></noscript>
 
-    <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS (Non-blocking) -->
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></noscript>
+    
+    <!-- Swiper CSS (Non-blocking) -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /></noscript>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
