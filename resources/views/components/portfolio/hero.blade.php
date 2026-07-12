@@ -65,21 +65,37 @@
         </div>
         
         <!-- Buttons & Profile Picture Area -->
-        <div class="flex flex-col md:flex-row items-center justify-center gap-8 w-full relative" data-aos="fade-up" data-aos-delay="400">
+        <div class="flex flex-col items-center justify-center gap-8 w-full relative" data-aos="fade-up" data-aos-delay="400">
             
+            <!-- Profile Picture (Mobile & Desktop) -->
+            <div class="relative z-20 flex justify-center">
+                <div class="w-24 h-24 md:w-20 md:h-20 rounded-full border-2 border-gray-600 overflow-hidden shadow-[0_0_20px_rgba(34,211,238,0.3)] hover:scale-110 transition-transform cursor-pointer">
+                    <img src="{{ asset('images/foto.jpg') }}" alt="Demas Eka Pradhisa" class="w-full h-full object-cover">
+                </div>
+            </div>
+
             <div class="flex flex-col sm:flex-row gap-4 z-20">
-                <a href="#projects" class="px-8 py-4 bg-white text-black text-sm font-bold rounded-full hover:scale-105 transition-transform flex items-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]">
+                <a href="#projects" class="px-8 py-4 bg-white text-black text-sm font-bold rounded-full hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] w-full sm:w-auto">
                     View Projects <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                 </a>
-                <a href="{{ asset('assets/CV _ Demas Eka Pradhisa.pdf') }}" download class="px-8 py-4 bg-transparent border border-gray-600 text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg">
+                <a href="{{ asset('assets/CV _ Demas Eka Pradhisa.pdf') }}" download class="px-8 py-4 bg-transparent border border-gray-600 text-white text-sm font-bold rounded-full hover:bg-gray-800 transition-colors shadow-lg w-full sm:w-auto text-center">
                     Download CV
                 </a>
             </div>
 
-            <!-- Profile Picture -->
-            <div class="relative mt-8 md:mt-0 md:ml-8 z-20 hidden md:block">
-                <div class="w-20 h-20 rounded-full border-2 border-gray-600 overflow-hidden shadow-2xl hover:scale-110 transition-transform cursor-pointer bg-red-600">
-                    <img src="{{ asset('images/foto.jpg') }}" alt="Demas Eka Pradhisa" class="w-full h-full object-cover">
+            <!-- Mobile Badges (Visible only on mobile) -->
+            <div class="flex flex-wrap justify-center gap-3 mt-4 z-20 md:hidden w-full px-4">
+                <div class="px-4 py-2 bg-gray-900/60 backdrop-blur-md border border-gray-700/50 rounded-full shadow-lg flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></div>
+                    <span class="text-xs text-white font-medium">Web Developer</span>
+                </div>
+                <div class="px-4 py-2 bg-gray-900/60 backdrop-blur-md border border-gray-700/50 rounded-full shadow-lg flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></div>
+                    <span class="text-xs text-white font-medium">UI/UX Designer</span>
+                </div>
+                <div class="px-4 py-2 bg-gray-900/60 backdrop-blur-md border border-gray-700/50 rounded-full shadow-lg flex items-center gap-2">
+                    <div class="w-2 h-2 rounded-full bg-red-400 animate-pulse"></div>
+                    <span class="text-xs text-white font-medium">System Analyst</span>
                 </div>
             </div>
         </div>
