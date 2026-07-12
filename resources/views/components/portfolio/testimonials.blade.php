@@ -2,7 +2,7 @@
     <!-- Section Header -->
     <div class="mb-12" data-aos="fade-up">
         <p class="text-cyan-400 text-sm font-bold tracking-widest uppercase mb-2">04 / CREDENTIALS</p>
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">Professional Licensure & Global Certifications.</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">Licenses & Certifications.</h2>
     </div>
 
     <!-- Bento Grid -->
