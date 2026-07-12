@@ -16,7 +16,7 @@
     <meta charset="utf-8">
     <!-- Force Desktop Layout on Mobile (User Preference) -->
     <meta name="viewport" content="width=1280">
-    <title>Demas Eka Pradhisa | Web Developer & System Analyst</title>
+    <title>Demas Eka Pradhisa | UI/UX Designer, Web Developer & System Analyst</title>
 
     <!-- Meta Tags & SEO -->
     <meta name="description" content="Official portfolio of Demas Eka Pradhisa, a Web Developer and System Analyst. Information Systems student at Telkom University.">
@@ -26,13 +26,13 @@
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://demasekapradhisa.com/">
-    <meta property="og:title" content="Demas Eka Pradhisa | Web Developer & System Analyst">
+    <meta property="og:title" content="Demas Eka Pradhisa | UI/UX Designer, Web Developer & System Analyst">
     <meta property="og:description" content="Official portfolio of Demas Eka Pradhisa. Explore various web, UI/UX, and system analysis projects that I have developed.">
     <meta property="og:image" content="{{ asset('images/og-preview.png') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Demas Eka Pradhisa | Web Developer & System Analyst">
+    <meta property="twitter:title" content="Demas Eka Pradhisa | UI/UX Designer, Web Developer & System Analyst">
     <meta property="twitter:description" content="Official portfolio of Demas Eka Pradhisa. Explore various web, UI/UX, and system analysis projects that I have developed.">
     <meta property="twitter:image" content="{{ asset('images/og-preview.png') }}">
 
