@@ -4,13 +4,13 @@
     <div class="mb-20 max-w-4xl" data-aos="fade-up">
         <p class="text-cyan-400 text-sm font-bold tracking-widest uppercase mb-6">01 / ABOUT & EXPERIENCE</p>
         <h2 class="text-5xl md:text-7xl font-black text-white tracking-tight leading-tight mb-2">
-            Analitis secara alami.
+            Naturally analytical.
         </h2>
         <h2 class="text-5xl md:text-7xl font-black text-gray-500 tracking-tight leading-tight mb-8">
-            Terstruktur melalui praktik.
+            Structured by practice.
         </h2>
         <p class="text-xl text-gray-400 leading-relaxed max-w-2xl">
-            Mahasiswa Sistem Informasi Telkom University yang berfokus pada pengembangan full-stack web, desain UI/UX, dan pemetaan proses bisnis.
+            Information Systems student at Telkom University focusing on full-stack web development, UI/UX design, and business process mapping.
         </p>
     </div>
 
@@ -25,11 +25,11 @@
             <span class="text-cyan-400 text-xs font-bold tracking-widest uppercase mb-6 block relative z-10">CURRENT FOCUS</span>
             
             <p class="text-white text-xl md:text-2xl font-medium leading-relaxed mb-8 relative z-10">
-                Membangun sistem POS dan manajemen digital <strong class="text-cyan-400">(Dapur Riuh)</strong> untuk otomatisasi pelaporan real-time.
+                Building a POS system and digital management <strong class="text-cyan-400">(Dapur Riuh)</strong> for real-time reporting automation.
             </p>
             
             <a href="#contact" class="inline-flex items-center gap-2 text-gray-900 font-bold bg-cyan-400 hover:bg-white px-6 py-3 rounded-full transition-all w-fit relative z-10 shadow-lg group-hover:scale-105">
-                Mari bangun bersama <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                Let's build together <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </a>
         </div>
 
@@ -37,10 +37,10 @@
         <div class="md:col-span-2 md:row-span-2 bg-gradient-to-b from-gray-800/80 to-gray-900/60 backdrop-blur-xl border border-gray-700/30 rounded-3xl p-10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] flex flex-col h-full group hover:-translate-y-1 hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
             <span class="text-gray-500 text-sm font-bold tracking-widest uppercase mb-12 block">A / 01</span>
             
-            <h3 class="text-3xl md:text-4xl font-bold text-white mb-6 leading-snug">Menjembatani alur bisnis & solusi digital.</h3>
+            <h3 class="text-3xl md:text-4xl font-bold text-white mb-6 leading-snug">Bridging business flows & digital solutions.</h3>
             
             <p class="text-gray-400 text-lg leading-relaxed mb-auto">
-                Saya merancang sistem terintegrasi yang menyederhanakan kompleksitas operasional menjadi antarmuka yang intuitif untuk UMKM. Berfokus pada skalabilitas dan performa.
+                I design integrated systems that simplify operational complexity into intuitive interfaces for MSMEs. Focused on scalability and performance.
             </p>
             
             <div class="mt-12 flex flex-wrap gap-3">
@@ -57,7 +57,7 @@
             </div>
             
             <p class="text-gray-300 text-md font-medium leading-relaxed mb-6 italic">
-                "Teknologi terbaik bekerja senyap di latar belakang."
+                "The best technology works silently in the background."
             </p>
             
             <span class="text-gray-500 text-xs font-bold tracking-widest uppercase">PRINCIPLE</span>

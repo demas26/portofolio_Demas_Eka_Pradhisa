@@ -5,7 +5,7 @@
         <div x-show="!loaded" x-transition.opacity.duration.500ms class="fixed inset-0 z-[200] bg-secondary dark:bg-gray-900 flex items-center justify-center">
             <div class="flex flex-col items-center gap-4">
                 <div class="w-16 h-16 border-4 border-gray-200 border-t-accent rounded-full animate-spin"></div>
-                <p class="text-gray-500 dark:text-gray-400 font-medium tracking-widest uppercase text-sm animate-pulse">Memuat Portofolio...</p>
+                <p class="text-gray-500 dark:text-gray-400 font-medium tracking-widest uppercase text-sm animate-pulse">Loading Portfolio...</p>
             </div>
         </div>
 

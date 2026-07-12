@@ -20,7 +20,7 @@
                   @submit="isSubmitting = true">
                 
                 <!-- FormSubmit Configuration -->
-                <input type="hidden" name="_subject" value="Pesan Baru dari Portofolio!">
+                <input type="hidden" name="_subject" value="New Message from Portfolio!">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_template" value="table">
                 <input type="hidden" name="_next" value="{{ url('/thanks') }}">

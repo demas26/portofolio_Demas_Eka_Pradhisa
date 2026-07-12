@@ -14,7 +14,7 @@
             </div>
             
             <h1 class="text-4xl md:text-5xl font-black text-white tracking-tight mb-4">Transmission Received.</h1>
-            <p class="text-gray-400 text-lg mb-10 leading-relaxed">Terima kasih! Pesan Anda telah berhasil dikirim. Saya akan segera meninjaunya dan membalas Anda ke email yang Anda berikan.</p>
+            <p class="text-gray-400 text-lg mb-10 leading-relaxed">Thank you! Your message has been sent successfully. I will review it shortly and get back to you at the email address provided.</p>
             
             <a href="{{ url('/') }}" class="inline-flex items-center gap-3 text-white font-bold group/btn relative overflow-hidden px-8 py-4 rounded-full border border-cyan-500/30 hover:border-cyan-400 hover:bg-cyan-500/10 transition-all">
                 <svg class="w-5 h-5 transform group-hover/btn:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>

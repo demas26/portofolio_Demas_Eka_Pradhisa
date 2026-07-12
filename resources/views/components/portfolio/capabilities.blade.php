@@ -3,7 +3,7 @@
         <!-- Header (Center-Aligned) -->
         <div class="mb-16 flex flex-col items-center justify-center text-center" data-aos="fade-up">
             <h2 class="text-4xl md:text-5xl font-black text-white mb-4 tracking-tight">Capabilities</h2>
-            <p class="text-slate-400 max-w-2xl text-lg">Pendekatan analitis dan terstruktur dari perancangan hingga pengembangan.</p>
+            <p class="text-slate-400 max-w-2xl text-lg">Analytical and structured approach from design to development.</p>
         </div>
 
         <!-- 3-Column Layout -->
@@ -22,7 +22,7 @@
                 </div>
                 
                 <h3 class="relative text-2xl font-bold text-white mb-4">Web Development</h3>
-                <p class="relative text-gray-400 mb-8 leading-loose flex-grow text-sm">Membangun aplikasi web full-stack terintegrasi untuk menangani logika bisnis yang dinamis dan skalabel.</p>
+                <p class="relative text-gray-400 mb-8 leading-loose flex-grow text-sm">Building integrated full-stack web applications to handle dynamic and scalable business logic.</p>
                 
                 <!-- Pill Tags -->
                 <div class="relative flex flex-wrap gap-2 mt-auto justify-start">
@@ -51,7 +51,7 @@
                 </div>
                 
                 <h3 class="relative text-2xl font-bold text-white mb-4">UI/UX Design</h3>
-                <p class="relative text-gray-400 mb-8 leading-loose flex-grow text-sm">Merancang pengalaman pengguna dengan prototipe interaktif yang menjembatani estetika visual dan fungsionalitas sistem.</p>
+                <p class="relative text-gray-400 mb-8 leading-loose flex-grow text-sm">Designing user experiences with interactive prototypes that bridge visual aesthetics and system functionality.</p>
                 
                 <!-- Pill Tags -->
                 <div class="relative flex flex-wrap gap-2 mt-auto justify-start">
@@ -79,7 +79,7 @@
                 </div>
                 
                 <h3 class="relative text-2xl font-bold text-white mb-4">System Analysis</h3>
-                <p class="relative text-gray-400 mb-8 leading-loose flex-grow text-sm">Menganalisis dan memetakan proses bisnis kompleks untuk diubah menjadi arsitektur perangkat lunak yang efisien.</p>
+                <p class="relative text-gray-400 mb-8 leading-loose flex-grow text-sm">Analyzing and mapping complex business processes to be transformed into efficient software architecture.</p>
                 
                 <!-- Pill Tags -->
                 <div class="relative flex flex-wrap gap-2 mt-auto justify-start">

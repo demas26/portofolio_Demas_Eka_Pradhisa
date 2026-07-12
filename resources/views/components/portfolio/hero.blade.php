@@ -25,7 +25,7 @@
         
         <!-- Sub-headline -->
         <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed mb-8" data-aos="fade-up" data-aos-delay="200">
-            Halo, saya Demas Eka Pradhisa. Saya mengubah alur bisnis yang kompleks menjadi produk digital dan sistem yang terstruktur, efisien, dan ramah pengguna.
+            Hello, I'm Demas Eka Pradhisa. I transform complex business workflows into structured, efficient, and user-friendly digital products and systems.
         </p>
 
         <!-- Typing Effect -->
@@ -132,19 +132,19 @@
     <div class="mt-auto pt-16 md:pt-24 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-4xl mx-auto border-t border-gray-800 w-full relative z-10" id="stats-container">
         <div class="text-center" data-aos="fade-up" data-aos-delay="100">
             <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="8">0</span>+</div>
-            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Proyek</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Projects</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="200">
             <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="5">0</span>+</div>
-            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Riset</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Research</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="300">
             <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="12">0</span>+</div>
-            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Sertifikat</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Certificates</div>
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="400">
             <div class="text-3xl md:text-5xl font-extrabold text-cyan-400 mb-1 md:mb-2"><span class="stat-counter" data-target="4">0</span>+</div>
-            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Tahun Belajar</div>
+            <div class="text-[10px] md:text-sm text-gray-500 uppercase tracking-widest font-semibold">Years of Study</div>
         </div>
     </div>
 </section>

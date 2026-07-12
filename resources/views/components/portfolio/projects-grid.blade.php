@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-16 gap-8" data-aos="fade-up">
         <div class="max-w-2xl">
             <h2 class="text-4xl md:text-5xl font-black text-white mb-4 tracking-tight">Projects</h2>
-            <p class="text-gray-400 text-lg">Sistem informasi manajemen digital untuk bisnis dan UMKM.</p>
+            <p class="text-gray-400 text-lg">Digital management information systems for businesses and MSMEs.</p>
         </div>
         
         <!-- Filter Pills -->
@@ -24,7 +24,7 @@
             <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                 <div class="text-xs font-bold text-cyan-400 mb-3 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">WEB APP / SYSTEM</div>
                 <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">Dapur Riuh — Integrated POS & Production System</h3>
-                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">Platform Point of Sale (POS) dan manajemen inventaris komprehensif yang diarsiteki khusus untuk UMKM kuliner. Mendukung automasi pelaporan penjualan, pelacakan bahan baku real-time, dan efisiensi operasional harian.</p>
+                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">A comprehensive Point of Sale (POS) platform and inventory management specially architected for culinary MSMEs. Supports sales reporting automation, real-time raw material tracking, and daily operational efficiency.</p>
                 <div class="flex flex-wrap gap-2 mb-8">
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Laravel</span>
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Livewire</span>
@@ -60,7 +60,7 @@
             <div class="p-6 flex-grow flex flex-col z-10 bg-gradient-to-t from-gray-900 to-transparent">
                 <div class="text-[10px] font-bold text-cyan-400 mb-2 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">UI/UX DESIGN / MOBILE</div>
                 <h3 class="text-xl font-bold text-white mb-3">Indomaret Mobile App Redesign</h3>
-                <p class="text-sm text-gray-400 mb-6 flex-grow">Eksplorasi perancangan ulang antarmuka aplikasi Indomaret Mobile agar lebih interaktif.</p>
+                <p class="text-sm text-gray-400 mb-6 flex-grow">Exploration of redesigning the Indomaret Mobile app interface to make it more interactive.</p>
                 <div class="flex flex-wrap gap-2 mt-auto">
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">Figma</span>
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">Mobile UI</span>
@@ -82,7 +82,7 @@
             <div class="p-6 flex-grow flex flex-col z-10 bg-gradient-to-t from-gray-900 to-transparent">
                 <div class="text-[10px] font-bold text-cyan-400 mb-2 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">UI/UX DESIGN / PROTOTYPE</div>
                 <h3 class="text-xl font-bold text-white mb-3">Saku Mahasiswa UI/UX</h3>
-                <p class="text-sm text-gray-400 mb-6 flex-grow">Desain antarmuka dan prototipe aplikasi manajemen keuangan khusus mahasiswa.</p>
+                <p class="text-sm text-gray-400 mb-6 flex-grow">Interface design and prototype of a financial management app specially for students.</p>
                 <div class="flex flex-wrap gap-2 mt-auto">
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">Figma</span>
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">Wireframing</span>
@@ -95,7 +95,7 @@
             <div class="p-8 md:w-1/2 flex flex-col justify-center">
                 <div class="text-[10px] font-bold text-cyan-400 mb-2 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">SYSTEM FLOW / PLANNING</div>
                 <h3 class="text-xl font-bold text-white mb-3">Saku Mahasiswa System Flow</h3>
-                <p class="text-sm text-gray-400 mb-6">Dokumentasi alur sistem, perjalanan pengguna (user journey), dan pemetaan arsitektur informasi.</p>
+                <p class="text-sm text-gray-400 mb-6">Documentation of system flow, user journey, and information architecture mapping.</p>
                 <div class="flex flex-wrap gap-2">
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">FigJam</span>
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">User Flow</span>
@@ -124,7 +124,7 @@
             <div class="p-6 flex-grow flex flex-col">
                 <div class="text-[10px] font-bold text-cyan-400 mb-2 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">UI/UX DESIGN / SYSTEM</div>
                 <h3 class="text-lg font-bold text-white mb-3">HRIS PT Indofood</h3>
-                <p class="text-sm text-gray-400 mb-6 flex-grow">Prototype antarmuka Sistem Informasi Manajemen Kepegawaian mencakup seluruh proses bisnis utama.</p>
+                <p class="text-sm text-gray-400 mb-6 flex-grow">Interface prototype for Human Resource Management Information System covering all main business processes.</p>
                 <div class="flex flex-wrap gap-2 mt-auto">
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">Figma</span>
                     <span class="px-2.5 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-[10px] font-semibold">Dashboard UI</span>
@@ -136,8 +136,8 @@
         <div class="project-card lg:col-span-3 bg-gray-900/40 backdrop-blur-xl border border-gray-700/30 rounded-3xl overflow-hidden group hover:shadow-[0_0_40px_rgba(34,211,238,0.15)] transition-all duration-500 flex flex-col md:flex-row relative" data-aos="fade-up" data-aos-delay="600" data-category="uiux">
             <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                 <div class="text-xs font-bold text-cyan-400 mb-3 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">UI/UX DESIGN / APP</div>
-                <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">Aplikasi Pemesanan QateringGo</h3>
-                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">Prototype QateringGo merupakan rancangan antarmuka aplikasi pemesanan catering berbasis mobile. Seluruh tampilan dirancang dengan memperhatikan prinsip User Interface (UI) dan User Experience (UX).</p>
+                <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">QateringGo Ordering App</h3>
+                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">QateringGo prototype is a mobile-based catering ordering app interface design. The entire display is designed by paying attention to User Interface (UI) and User Experience (UX) principles.</p>
                 <div class="flex flex-wrap gap-2 mb-8">
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Figma</span>
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Food Delivery UI</span>
@@ -159,8 +159,8 @@
         <div class="project-card lg:col-span-3 bg-gray-900/40 backdrop-blur-xl border border-gray-700/30 rounded-3xl overflow-hidden group hover:shadow-[0_0_40px_rgba(34,211,238,0.15)] transition-all duration-500 flex flex-col md:flex-row relative" data-aos="fade-up" data-aos-delay="700" data-category="sa">
             <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                 <div class="text-xs font-bold text-cyan-400 mb-3 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">SYSTEM ANALYSIS & DOCUMENTATION</div>
-                <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">QateringGo — Kertas Kerja Analisis Sistem</h3>
-                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">Dokumen komprehensif Analisis Sistem untuk platform QateringGo. Mencakup justifikasi metodologi Agile Scrum, teknik elisitasi kebutuhan, pemetaan masalah stakeholder, serta definisi spesifikasi kebutuhan fungsional perangkat lunak secara mendalam.</p>
+                <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">QateringGo — System Analysis Working Paper</h3>
+                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">Comprehensive System Analysis document for the QateringGo platform. Covers Agile Scrum methodology justification, requirement elicitation techniques, stakeholder problem mapping, and in-depth software functional requirement definitions.</p>
                 <div class="flex flex-wrap gap-2 mb-8">
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Agile Scrum</span>
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Elicitation Technique</span>
@@ -168,10 +168,10 @@
                 </div>
                 <div class="flex flex-wrap gap-4 mt-2">
                     <a href="{{ asset('assets/docs/qateringgo-kertas-kerja-1.pdf') }}" target="_blank" class="px-6 py-3 bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 rounded-full text-sm font-bold flex items-center gap-2 hover:bg-cyan-500/20 hover:scale-105 transition-all shadow-[0_0_15px_rgba(34,211,238,0.15)]">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Kertas Kerja 1
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Working Paper 1
                     </a>
                     <a href="{{ asset('assets/docs/qateringgo-kertas-kerja-2.pdf') }}" target="_blank" class="px-6 py-3 bg-indigo-500/10 text-indigo-400 border border-indigo-500/30 rounded-full text-sm font-bold flex items-center gap-2 hover:bg-indigo-500/20 hover:scale-105 transition-all shadow-[0_0_15px_rgba(99,102,241,0.15)]">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Kertas Kerja 2
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg> Working Paper 2
                     </a>
                 </div>
             </div>
@@ -206,15 +206,15 @@
         <div class="project-card lg:col-span-3 bg-gray-900/40 backdrop-blur-xl border border-gray-700/30 rounded-3xl overflow-hidden group hover:shadow-[0_0_40px_rgba(34,211,238,0.15)] transition-all duration-500 flex flex-col md:flex-row relative" data-aos="fade-up" data-aos-delay="800" data-category="web">
             <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
                 <div class="text-xs font-bold text-cyan-400 mb-3 tracking-widest drop-shadow-[0_0_5px_rgba(34,211,238,0.5)]">WEB DEVELOPMENT</div>
-                <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">Sistem Informasi Toko Amira</h3>
-                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">Platform e-commerce dan sistem informasi manajemen untuk Toko Amira. Dibangun menggunakan arsitektur web untuk memastikan performa yang cepat dan pengalaman pengguna yang optimal.</p>
+                <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">Toko Amira Information System</h3>
+                <p class="text-gray-400 mb-8 leading-relaxed max-w-xl">E-commerce platform and management information system for Toko Amira. Built using web architecture to ensure fast performance and optimal user experience.</p>
                 <div class="flex flex-wrap gap-2 mb-8">
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Web System</span>
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">E-Commerce</span>
                     <span class="px-3 py-1 bg-gray-800/80 text-gray-300 border border-gray-700 rounded-full text-xs font-semibold">Source Code</span>
                 </div>
                 <a href="https://github.com/demas26/toko-amira" target="_blank" rel="noopener noreferrer" class="self-start px-6 py-3 bg-gray-800 text-white border border-gray-600 rounded-full text-sm font-bold flex items-center gap-2 hover:bg-gray-700 hover:scale-105 transition-all shadow-[0_0_15px_rgba(255,255,255,0.1)]">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.098-2.646 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.376.202 2.394.1 2.646.64.699 1.026 1.591 1.026 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"></path></svg> View Repository di GitHub
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.447-1.27.098-2.646 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.376.202 2.394.1 2.646.64.699 1.026 1.591 1.026 2.682 0 3.841-2.337 4.687-4.565 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.161 22 16.416 22 12c0-5.523-4.477-10-10-10z"></path></svg> View Repository on GitHub
                 </a>
             </div>
             <div class="md:w-1/2 bg-gray-800/50 relative overflow-hidden flex items-center justify-center p-8">
@@ -226,7 +226,7 @@
                 <!-- Fallback Placeholder if Image Not Found -->
                 <div style="display: none" class="w-[85%] h-64 bg-gray-700/50 rounded-xl border border-gray-600/50 flex flex-col items-center justify-center text-gray-400 shadow-[0_10px_40px_rgba(0,0,0,0.6)] group-hover:scale-105 transition-transform duration-700 z-10">
                     <svg class="w-16 h-16 mb-4 text-gray-500/50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                    <span class="font-semibold tracking-wider text-sm text-center px-4">Siapkan foto layar (screenshot) website Anda lalu beri nama:<br><span class="text-cyan-400 text-xs mt-2 block font-mono">toko-amira.png</span><br>Lalu masukkan ke folder public/images/</span>
+                    <span class="font-semibold tracking-wider text-sm text-center px-4">Prepare a screenshot of your website and name it:<br><span class="text-cyan-400 text-xs mt-2 block font-mono">toko-amira.png</span><br>Then place it in the public/images/ folder</span>
                 </div>
             </div>
         </div>

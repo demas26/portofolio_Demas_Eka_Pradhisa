@@ -19,7 +19,7 @@
     <title>Demas Eka Pradhisa | Web Developer & System Analyst</title>
 
     <!-- Meta Tags & SEO -->
-    <meta name="description" content="Portofolio resmi Demas Eka Pradhisa, seorang Web Developer dan System Analyst. Mahasiswa Sistem Informasi Telkom University.">
+    <meta name="description" content="Official portfolio of Demas Eka Pradhisa, a Web Developer and System Analyst. Information Systems student at Telkom University.">
     <meta name="keywords" content="Demas Eka Pradhisa, Web Developer, System Analyst, UI/UX Designer, Telkom University, Laravel, Tailwind CSS, Portfolio">
     <meta name="author" content="Demas Eka Pradhisa">
     
@@ -27,13 +27,13 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://demasekapradhisa.com/">
     <meta property="og:title" content="Demas Eka Pradhisa | Web Developer & System Analyst">
-    <meta property="og:description" content="Portofolio resmi Demas Eka Pradhisa. Jelajahi berbagai proyek web, UI/UX, dan analisa sistem yang telah saya kembangkan.">
+    <meta property="og:description" content="Official portfolio of Demas Eka Pradhisa. Explore various web, UI/UX, and system analysis projects that I have developed.">
     <meta property="og:image" content="{{ asset('images/og-preview.png') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="Demas Eka Pradhisa | Web Developer & System Analyst">
-    <meta property="twitter:description" content="Portofolio resmi Demas Eka Pradhisa. Jelajahi berbagai proyek web, UI/UX, dan analisa sistem yang telah saya kembangkan.">
+    <meta property="twitter:description" content="Official portfolio of Demas Eka Pradhisa. Explore various web, UI/UX, and system analysis projects that I have developed.">
     <meta property="twitter:image" content="{{ asset('images/og-preview.png') }}">
 
     <!-- Favicon -->

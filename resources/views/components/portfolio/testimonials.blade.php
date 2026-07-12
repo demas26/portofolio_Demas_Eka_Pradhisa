@@ -18,7 +18,7 @@
             <div class="flex-grow">
                 <h3 class="text-2xl font-bold text-white mb-2">Certified System Analyst (CSA)</h3>
                 <h4 class="text-cyan-400 text-sm font-semibold mb-4">Badan Nasional Sertifikasi Profesi (BNSP)</h4>
-                <p class="text-slate-300 text-sm leading-relaxed mb-8">Validasi resmi tingkat nasional dalam rekayasa struktur perangkat lunak, elisitasi kebutuhan sistem, dan perancangan antarmuka (UI/UX).</p>
+                <p class="text-slate-300 text-sm leading-relaxed mb-8">Official national-level validation in software structure engineering, system requirement elicitation, and interface design (UI/UX).</p>
             </div>
             
             <!-- Action -->
@@ -100,7 +100,7 @@
                     <a href="{{ asset('assets/certifications/telkom-financial.pdf') }}" target="_blank" class="flex items-center justify-between bg-slate-900/50 p-5 rounded-xl border border-slate-700/50 hover:bg-slate-700 transition-colors group">
                         <div>
                             <span class="block text-slate-200 font-medium mb-1">Financial Freedom 101</span>
-                            <span class="block text-slate-400 text-xs">Studium Generale - S1 Sistem Informasi</span>
+                            <span class="block text-slate-400 text-xs">Studium Generale - Bachelor of Information Systems</span>
                         </div>
                         <svg class="w-5 h-5 text-cyan-400 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </a>
