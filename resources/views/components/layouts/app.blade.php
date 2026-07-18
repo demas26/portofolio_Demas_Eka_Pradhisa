@@ -248,11 +248,11 @@
             const splitText = (selector) => {
                 const element = document.querySelector(selector);
                 if(element) {
-                    const text = element.innerText;
+                    const text = element.textContent.trim();
                     element.innerHTML = text.split('').map(char => 
-                        char === ' ' ? '&nbsp;' : `<span class="inline-block relative opacity-0 translate-y-8">${char}</span>`
+                        char.trim() === '' ? '<span class="inline-block w-[0.25em]">&nbsp;</span>' : `<span class="inline-block relative opacity-0 translate-y-8">${char}</span>`
                     ).join('');
-                    return element.querySelectorAll('span');
+                    return element.querySelectorAll('span.opacity-0');
                 }
                 return [];
             };
